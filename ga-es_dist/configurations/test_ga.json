@@ -1,0 +1,30 @@
+{
+  "algo": {
+    "calc_obstat_prob": 0.0,
+    "eval_prob": 0.01,
+    "l2coeff": 0.005,
+    "noise_stdev": 0.005,
+    "return_proc_mode": "centered_rank",
+    "episode_cutoff_mode": "adaptive:10000,0.33,10000",
+    "episodes_per_batch": 10,
+    "timesteps_per_batch": 1000,
+    "snapshot_freq": 20,
+    "num_elites": 1,
+    "population_size": 10
+  },
+  "task": {
+    "snapshot_count": 5,
+    "episodes_target": 1000,
+    "timesteps_target": 50000,
+    "episodes_per_batch": 10,
+    "timesteps_per_batch": 1000,
+    "env_id": "SpaceInvadersNoFrameskip-v4",
+    "snapshot_path": "."
+  },
+  "policy": {
+    "args" : {
+      "nonlin_type": "relu"
+    },
+    "type": "GAAtariPolicy"
+  }
+}

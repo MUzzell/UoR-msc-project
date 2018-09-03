@@ -1,0 +1,32 @@
+{
+  "algo": {
+    "calc_obstat_prob": 0.0,
+    "episodes_per_batch": 5,
+    "eval_prob": 0.01,
+    "l2coeff": 0.005,
+    "noise_stdev": 0.005,
+    "snapshot_freq": 20,
+    "timesteps_per_batch": 10000,
+    "return_proc_mode": "centered_rank",
+    "episode_cutoff_mode": "adaptive:100,0.33,100",
+    "optimizer": {
+      "args": {
+        "stepsize": 0.01
+      },
+      "type": "adam"
+    }
+  },
+  "task": {
+    "snapshot_count": 5,
+    "episodes_target": 0,
+    "timesteps_target": 50000,
+    "episodes_per_batch": 10,
+    "timesteps_per_batch": 1000,
+    "env_id": "SpaceInvadersNoFrameskip-v4",
+    "snapshot_path": "."
+  },
+  "policy": {
+    "args" : {},
+    "type": "ESAtariPolicy"
+  }
+}

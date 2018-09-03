@@ -1,0 +1,14 @@
+version: '3'
+services:
+  redis_master:
+    image: redis:latest
+    volumes:
+      - "/home/muzzell/workspace/deep-neuroevolution/redis_config:/config"
+    entrypoint:
+      - "/usr/local/bin/redis-server /config/redis_master.conf"
+  redis_mirror:
+    image: redis:latest
+    volumes:
+      - "/home/muzzell/workspace/deep-neuroevolution/redis_config:/config"
+    entrypoint:
+      - "redis-server /config/redis_local_mirror.conf"
