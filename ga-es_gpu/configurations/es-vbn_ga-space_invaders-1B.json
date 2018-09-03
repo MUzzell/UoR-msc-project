@@ -1,0 +1,19 @@
+{
+    "load_from": "ga_snapshot.pkl",
+    "game": "space_invaders",
+    "model": "ModelVirtualBN",
+    "num_validation_episodes": 30,
+    "num_test_episodes": 200,
+    "population_size": 4000,
+    "timesteps": 1e9,
+    "episode_cutoff_mode": 5000,
+    "return_proc_mode": "centered_rank",
+    "l2coeff": 0.005,
+    "mutation_power": 0.02,
+    "optimizer": {
+        "args": {
+            "stepsize": 0.01
+        },
+        "type": "adam"
+    }
+}

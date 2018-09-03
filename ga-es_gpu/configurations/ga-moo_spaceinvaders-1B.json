@@ -1,0 +1,13 @@
+{
+    "load_from": "ga-moo_snapshot.pkl",
+    "game": "space_invaders",
+    "model": "LargeModel",
+    "num_validation_episodes": 30,
+    "num_test_episodes": 200,
+    "population_size": 4000,
+    "episode_cutoff_mode": 10000,
+    "timesteps": 1e9,
+    "validation_threshold": 20,
+    "mutation_power": 0.002,
+    "selection_threshold": 20
+}

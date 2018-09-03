@@ -1,0 +1,3 @@
+This folder contains the configurations for the es-ga gpu experiments. where a policy was seeded for an experiment, the seeding snapshot was called "es/ga_snapshot.pkl", and placed in the data_dir the experiment was logging to.
+
+Note: GA and GA_MO can use the same configuration settings.
