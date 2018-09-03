@@ -1,5 +1,5 @@
 
-##DRL (DQN)
+## DRL (DQN)
 drl folder: contains DQN from DeepMind
 Original Repo can be found here: https://github.com/deepmind/dqn
 

@@ -1,5 +1,5 @@
-##Investigation into reinforcement learning algorithms
-###Study into GA, ES, & DQN
+## Investigation into reinforcement learning algorithms
+### Study into GA, ES, & DQN
 
 This repo contains the source code used for my recent Masters project undertaken at the University of Reading.
 

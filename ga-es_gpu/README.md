@@ -1,4 +1,4 @@
-##GA ES - GPU
+## GA ES - GPU
 
 ga-es_gpu folder: contains GA and ES experiments
 
